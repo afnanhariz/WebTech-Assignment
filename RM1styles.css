@@ -17,7 +17,6 @@ header {
   background-color: black;
   border: 1px solid #ccc;
   border-radius: 0%;
-
 }
 
 header h2 {
@@ -44,7 +43,6 @@ header {
   grid-row: 1;
 }
 
-
 .container {
   display: flex;
   flex-direction: column;
@@ -66,9 +64,7 @@ footer {
   align-items: flex-start;
   width: 100%;
   max-width: 95%;
-  /* Adjust maximum width */
   border: 1px solid #ccc;
-  /* Add a border to the form */
   padding: 20px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -76,7 +72,6 @@ footer {
 .text-content {
   flex: 1;
   padding: 25px;
-  /* Adjust spacing between content */
 }
 
 .image {
@@ -85,7 +80,6 @@ footer {
 
 @media screen and (max-width: 765px) {
 
-  /* For smaller screens, adjust layout to stack */
   .content {
     flex-direction: column;
   }
@@ -103,7 +97,6 @@ form {
   border: 1px solid #ccc;
   border-radius: 3%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 
 input[type="text"],
